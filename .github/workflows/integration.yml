@@ -2,7 +2,7 @@ name: Integration
 
 on:
   push:
-    branches: [main]
+    branches: ['**'] # The '**' wildcard means it will run on ALL branches
   pull_request:
     branches: [main]
 
